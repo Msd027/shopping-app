@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Fashion",
+        "navName": "Fashion"
+    },
+    {
+        "id": 2,
+        "name": "Beauty",
+        "navName": "Beauty"
+    },
+    {
+        "id": 3,
+        "name": "Electronics",
+        "navName": "Electronics"
+    },
+    {
+        "id": 4,
+        "name": "Decorative",
+        "navName": "Decorative"
+    }
+]

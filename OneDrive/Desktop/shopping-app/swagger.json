@@ -1,0 +1,55 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Shopping API",
+        "description": "This API is for shopping"
+    },
+
+    "tags": [
+        {
+            "name": "PUBLIC ROUTE",
+            "description": "Public Route"
+        }
+    ],
+    "paths": {
+        "/health": {
+            "summary": "Testing Health Check",
+            "get": {
+                "description": "Testing User for app",
+                "tags": ["PUBLIC ROUTE"],
+                "responses": {
+                    "200": {
+                        "description": "Health Check Pass"
+                    }
+                }
+            }
+        },
+        "/category":{
+            "summary":"Testing category route",
+            "get":{
+                "description":"Testing category route for app",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"category route"
+                    }
+                }
+
+            }
+        },
+        "/item":{
+            "summary":"Testing item route",
+            "get":{
+                "description":"Testing item route for app",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"item route"
+                    }
+                }
+
+            }
+        }
+    }
+}

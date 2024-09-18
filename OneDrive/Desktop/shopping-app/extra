@@ -1,0 +1,13 @@
+mongodb
+id: mddanish151
+pw: iECrkUcDu1P3YbNY
+
+mongodb+srv://mddanish151:iECrkUcDu1P3YbNY@cluster0.zlci9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+git init
+git add README.md
+git commit -m "shopping"
+git branch -M main
+git remote add origin https://Msd027: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@github.com/Msd027/shopping-app.git
+git push -u origin main
