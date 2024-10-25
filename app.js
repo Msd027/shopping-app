@@ -44,7 +44,7 @@ app.get('/item', async (req, res) => {
 });
 
 //sort on basis of name and cost
-app.get("/filter/:categoryId", async (req, res) => {
+app.get("/:categoryId", async (req, res) => {
     let query = {};
     let category_id = Number(req.params.categoryId);
     let name = req.query.name;
